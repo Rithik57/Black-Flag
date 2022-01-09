@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Black Flag</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles2.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+  <section id="title">
+
+      <!-- Nav Bar -->
+      <!--navigation bar-->
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Black Flag</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+    <div class="container-fluid titleText">
+      <div class="row text-light">
+        <div class="col-md-6">
+          <h1><strong>A web crawler made for searching internet content.</strong></h1>
+          <button class="btn btn-primary downloadButton" type="button"><i class="fab fa-apple"></i> Download</button>
+          <button class="btn btn-outline-danger downloadButton" id="androidDownloadButton" type="button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-md-6 product-image-movies">
+          <img src="images/movies%20activity.png" alt="iphone-mockup" height="600px">
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <center>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fas fa-check-circle check-icon"></i>
+          <h3 class="feature-text">Easy to use.</h3>
+          <p class="feature-paragraph">So easy to use, even a retard could do it.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-bullseye check-icon"></i>
+          <h3 class="feature-text">Free.</h3>
+          <p class="feature-paragraph">Piracy is free as fuck</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-cogs check-icon"></i>
+          <h3 class="feature-text">Not guaranteed to work.</h3>
+          <p class="feature-paragraph">Shit happens</p>
+        </div>
+      </div>
+    </center>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+<!--Carousel-->
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+<!--      Firebase-->
+      <div class="carousel-item active">
+        <h2>Secure authentication</h2>
+        <img src="images/firebaseLogo.png" height="100px">
+        <br>
+        <img class="product-image-login" src="images/login%20screen.png"/>
+      </div>
+
+<!--      Piratebay-->
+      <div class="carousel-item">
+        <h2>Movies directly from PirateBay</h2>
+        <img src="images/piratebayLogo.png" height="100px">
+        <br>
+        <img class="product-image-login" src="images/movies%20activity.png"/>
+      </div>
+
+<!--      videos-->
+      <div class="carousel-item">
+        <h2>Get videos from link</h2>
+        <img src="images/youtubeLogo.png" height="100px">
+        <br>
+        <img class="product-image-login" src="images/videoDownloader.png"/>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img src="images/piratebayLogo.png" class="press-image">
+    <img src="images/FirebaseStandard1.png" class="press-image">
+    <img src="images/youtubeLogo.png" class="press-image">
+    <img src="images/mashable.png" class="press-image">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+<!--    card deck-->
+
+      <div class="row text-center price-cards">
+
+<!--        first card-->
+        <div class="col-lg-4 col-md-6">
+          <div class="card box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Peasant</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ Yr</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Torrent Movies</li>
+                <li>Video Downloader</li>
+                <li>Free Account</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+            </div>
+          </div>
+        </div>
+
+<!--    second card-->
+        <div class="col-lg-4 col-md-6">
+          <div class="card box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Pirate</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$1 <small class="text-muted">/ Yr</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Torrent Movies</li>
+                <li>Video Downloader</li>
+                <li>Music Downloader</li>
+                <li>Book/PDF finder</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+            </div>
+          </div>
+        </div>
+
+<!--        third card-->
+        <div class="col-lg-4">
+          <div class="card box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Professional</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><small class="text-muted">Coming Soon</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Torrent Movies</li>
+                <li>Video Downloader</li>
+                <li>Music Downloader</li>
+                <li>Spotify Playlist Downloader</li>
+                <li>Recommender Engine</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary disabled">Contact us</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright 2018 TinDog</p>
+
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
