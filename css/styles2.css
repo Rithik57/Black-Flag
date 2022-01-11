@@ -89,7 +89,6 @@ h2{
 }
 .product-image-login{
     width: 10%;
-
 }
 #carouselExampleIndicators{
     padding-bottom: 100px;
@@ -123,4 +122,28 @@ h2{
 
 #footer{
     text-align: center;
+}
+
+@media (max-width: 750px){
+    .titleText{
+        text-align: center;
+    }
+    .product-image-movies{
+        transform : rotate(0deg);
+        padding-left: 0px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .downloadButton{
+        margin-top: 1rem;
+    }
+    #androidDownloadButton{
+        margin-left: 0px;
+    }
+    h2{
+        line-height: 50px;
+    }
+    .product-image-login{
+        width: 40%;
+    }
 }
